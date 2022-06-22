@@ -1,0 +1,30 @@
+{
+  "name": "ifc-ts-classes",
+  "version": "0.1.0",
+  "description": "generated template classes for IFC4 ADD2 TC1 xsd (ISO 16739-1:2018)",
+  "main": "index.js",
+  "scripts": {
+    "ts-gen": "ts-node ./src/generate.ts",
+    "makelib": "tsc -p ./src/generated",
+    "setup": "npm install"
+  },
+  "repository": {
+    "type": "github",
+    "url": "git+https://github.com/PASS-TECH/ifc-ts-classes.git"
+  },
+  "author": "Nader Boutros - PASS Technologie",
+  "license": "GPL-3.0-or-later",
+  "dependencies": {
+    "ts-loader": "2.2.2",
+    "ts-node": "3.3.0",
+    "typescript": "3.9.9",
+    "xsd2ts": "0.9.x"
+  },
+  "bugs": {
+    "url": "https://github.com/PASS-TECH/ifc-ts-classes/issues"
+  },
+  "homepage": "https://github.com/PASS-TECH/ifc-ts-classes#readme",
+  "keywords": [
+    "IFC"
+  ]
+}
